@@ -1,0 +1,53 @@
+---
+whiskers:
+  version: "^2.9.0"
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{flavor.identifier}}/{{accent}}/sunvox_config.ini"
+  hex_format: "{{R}}{{G}}{{B}}"
+---
+theme
+c_0 #{{crust.hex}}
+c_1 #{{mantle.hex}}
+c_2 #{{flavor.colors[accent].hex}}
+c_3 #{{text.hex}}
+c_red #{{red.hex}}
+c_green #{{green.hex}}
+c_blue #{{sky.hex}}
+c_yellow #{{yellow.hex}}
+
+c_btn #{{base.hex}}
+c_pbtn #{{surface0.hex}}
+c_sel #{{text.hex}}
+c_txtback #{{base.hex}}
+c_lstback #{{base.hex}}
+c_scroll #{{base.hex}}
+c_pscroll #{{surface0.hex}}
+c_pateditor_bg #{{crust.hex}}
+c_pateditor_white #{{text.hex}}
+c_pateditor_ln #{{subtext1.hex}}
+c_pateditor_ctl #{{yellow.hex}}
+c_pateditor_eff #{{yellow.hex}}
+c_pateditor_val #{{sky.hex}}
+c_pateditor_vel_low #{{peach.hex}}
+c_pateditor_level #{{text.hex}}
+c_pateditor_cursor #{{subtext0.hex}}
+c_cgp0 #{{subtext0.hex}}
+c_cgp1 #{{red.hex}}
+c_cgp2 #{{sky.hex}}
+c_cgp3 #{{yellow.hex}}
+c_cgp4 #{{maroon.hex}}
+c_cgp5 #{{green.hex}}
+c_cgp6 #{{peach.hex}}
+c_cgp7 #{{sapphire.hex}}
+c_cgp8 #{{rosewater.hex}}
+c_cgp9 #{{subtext0.hex}}
+c_layer0 #{{surface0.hex}}
+c_layer1 #{{red.hex}}
+c_layer2 #{{green.hex}}
+c_layer3 #{{yellow.hex}}
+c_layer4 #{{sky.hex}}
+c_layer5 #{{pink.hex}}
+c_layer6 #{{teal.hex}}
+c_layer7 #{{text.hex}}
